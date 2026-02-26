@@ -1,0 +1,30 @@
+touch .gitignore
+```
+
+---
+
+## Step 2: Open `.gitignore` and Add These Lines
+
+Since your project is a **Python project**, add all of these:
+```
+# Environment variables (sensitive data)
+.env
+
+# Python cache
+__pycache__/
+
+# Virtual environment
+venv312/
+
+# faiss file
+/faiss_index_langchain
+/faiss_medicine_index
+/faiss_product_name
+
+m.py 
+main.py
+main1.py
+pg.py
+v.py
+langchain_new_512.py
+
