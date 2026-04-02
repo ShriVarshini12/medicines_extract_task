@@ -13,7 +13,7 @@ REGION = "ap-south-1"
 BEDROCK_TEXT_MODEL = "anthropic.claude-3-sonnet-20240229-v1:0"
 EMBEDDING_MODEL_ID = "amazon.titan-embed-text-v2:0"
 
-CONNECTION_STRING = "postgresql+psycopg2://postgres:Shri%402005@localhost:5432/pharmacy_db_512"
+CONNECTION_STRING = "postgresql+psycopg2://postgres:"
 
 # AWS Clients
 textract = boto3.client("textract", region_name=REGION)
